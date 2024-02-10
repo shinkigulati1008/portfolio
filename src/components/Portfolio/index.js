@@ -156,7 +156,7 @@ const Portfolio = () => {
             <Loader type="pacman" />
             <Modal
                 isOpen={isModalOpen}
-                onClose={closeModal}
+                closeModal={closeModal}
                 onSubmit={handleEditFormSubmit}
                 portfolio={selectedPortfolio}
                 onFileSelect={setSelectedFile}
